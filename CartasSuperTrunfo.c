@@ -61,7 +61,7 @@ int main(){
   printf("Digite o número de pontos turísticos da cidade (ex.: 27):\n");
   scanf("%d", &numPontosTuristicos2);
   
-  // 5) Exibir os dados das cartas 1 e 2, respectivamente
+  // 4) Exibir os dados das cartas 1 e 2, respectivamente
   printf("Carta 1:\n");
   printf("Estado: %c\n", estado);
   printf("Código: %s\n", codigoCarta);
