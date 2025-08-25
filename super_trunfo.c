@@ -108,6 +108,8 @@ int main(){
 
     if(comparaNumHabitantes) {
       printf("%s venceu!\n", nomeCidade);
+    } else if (numHabitantes == numHabitantes2) {
+      printf("Empate!\n");
     } else {
       printf("%s venceu!\n", nomeCidade2);
     }
@@ -115,10 +117,12 @@ int main(){
 
     case 2:
     printf("Comparando área: %s vs. %s\n", nomeCidade, nomeCidade2);
-    printf("%s: %fkm² e %s: %fkm²\n", nomeCidade, area, nomeCidade2, area2);
+    printf("%s: %.2fkm² e %s: %.2fkm²\n", nomeCidade, area, nomeCidade2, area2);
 
     if(comparaArea) {
       printf("%s venceu!\n", nomeCidade);
+    } else if (area == area2){
+      printf("Empate!\n");
     } else {
       printf("%s venceu!\n", nomeCidade2);
     }
@@ -126,10 +130,12 @@ int main(){
 
     case 3:
     printf("Comparando PIB: %s vs. %s\n", nomeCidade, nomeCidade2);
-    printf("%s: %f bilhões de reais e %s: %f bilhões de reais\n", nomeCidade, pib, nomeCidade2, pib2);
+    printf("%s: %.2f bilhões de reais e %s: %.2f bilhões de reais\n", nomeCidade, pib, nomeCidade2, pib2);
 
     if(comparaPib) {
       printf("%s venceu!\n", nomeCidade);
+    } else if (pib == pib2) {
+      printf("Empate!\n");
     } else {
       printf("%s venceu!\n", nomeCidade2);
     }
@@ -141,6 +147,8 @@ int main(){
 
     if(comparaNumPontosTuristicos) {
       printf("%s venceu!\n", nomeCidade);
+    } else if (numPontosTuristicos == numPontosTuristicos2) {
+      printf("Empate!\n");
     } else {
       printf("%s venceu!\n", nomeCidade2);
     }
@@ -148,10 +156,12 @@ int main(){
 
     case 5:
     printf("Comparando densidade demográfica: %s vs. %s\n", nomeCidade, nomeCidade2);
-    printf("%s: %f e %s: %f\n", nomeCidade, densidadePop, nomeCidade2, densidadePop2);
+    printf("%s: %.2f e %s: %.2f\n", nomeCidade, densidadePop, nomeCidade2, densidadePop2);
 
     if(comparaDensidadePop) {
       printf("%s venceu!\n", nomeCidade2);
+    } else if (densidadePop == densidadePop2){
+      printf("Empate!\n");
     } else {
       printf("%s venceu!\n", nomeCidade);
     }
